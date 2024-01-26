@@ -1,0 +1,195 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+
+}header{
+  width: 100%;height: 170vh;
+  background-color: #000!important;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+nav{
+  width: 100%;height: 15vh;
+  background-color: turquoise;
+  color: white;display:flex ;justify-content:space-between ;
+align-items: center;text-transform: uppercase;
+}
+nav .logo{
+  width: 25%;text-align: center;
+}
+nav .menu {
+  width: 30%;
+  display: flex;justify-content: space-between;
+  text-decoration:none ;color: white;
+  font-size: larger;
+ 
+}
+nav .menu a{ 
+  width: 30%;
+  text-decoration:none ;color: white;
+  font: bold;
+}
+main{
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;color: white;
+}
+
+section h3{font-size: 35px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px white;
+
+}
+section h1{
+  margin: 30px 0 20px 0 ;
+font-size: 55px;
+font-weight:700 ;
+text-shadow:  2px 1px 5px white; 
+text-transform:uppercase ;
+
+}
+/*section h2{
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px black;
+*/
+
+
+section p {
+  font-size: 25px;
+  color: white;
+  word-spacing: 2px;
+margin-bottom: 25px;
+  text-shadow: 1px 1px 1px white;
+
+
+}
+section a {
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all .5s ease;
+}
+section .btnone{
+  background: white;
+  color: #000;
+}
+.btnone:hover{
+  background:turquoise; 
+color: white;
+}
+section .btntwo{
+background:turquoise; 
+color: white;
+
+}
+.btntwo.hover{
+  background: white;
+  color: #000;
+}
+.change_content::after{
+  content: "";
+  animation: changetext 10s infinite linear;
+  color: turquoise;
+}
+@keyframes changetext{
+  0%{content:"Listen " ;}
+  20%{content: "Feel";}
+35%{content: "Inspire";}
+
+
+}
+h4{
+  margin: 30px 0 20px 0 ;
+  font-size: 40px;
+  font: weight 600; 
+   text-shadow:  2px 1px 1px black; 
+  text-transform:uppercase ;
+  background-color:coral;
+  text-decoration: none ; color: white;
+  width: 100%;height: 100vh;
+  /* background-image: url("./"); */
+background-repeat: no-repeat;
+background-size: cover;
+
+  
+}
+h5{
+  margin: 30px 0 20px 0 ;
+  font-size: 30px;
+  font-weight:600;
+  text-shadow: 2px 1px 1px black;
+  text-transform:uppercase ;
+  background-color:coral;
+  text-decoration: none; color: white;
+  width: 100%;height: 100vh;
+  /* background-image: url("image/IMG-20180629-WA0041.jpg"); */
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+.container{
+  min-height: 35vh;
+  color: white;
+}
+.bottom{
+  position: sticky;
+  
+  width: 100%;height: 15vh;
+  background-color:turquoise;
+bottom: 0;
+color:black;
+
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.icons{
+  margin-top: 14px;
+}
+.icons{
+  cursor: pointer;
+}
+#myprogressBar{
+  width: 80vw;
+}
+.songitemContainer{
+margin-top: 34px;  
+}
+.songitem{
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: #000;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px; 
+}
+.songitem img{
+  width: 43px;
+  margin:0  23px 0 ;
+
+}
+.timestamp{
+  margin:0 23px ;
+
+}
+.timestamp i{
+  cursor: pointer;
+}
+
